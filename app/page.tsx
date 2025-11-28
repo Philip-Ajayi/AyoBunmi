@@ -10,7 +10,7 @@ import {
   Calendar,
   Clock,
   BookOpen,
-  Link,
+  Linkedin,
   Instagram,
   Heart,
 } from "lucide-react";
@@ -87,7 +87,7 @@ export const WEDDING_DATA: {
   couple: {
     groom: "Ayobami Akorede",
     bride: "Oluwabunmi Fadekemi",
-    names: "Ayo & Bunmi",
+    names: "OA Affairs",
   },
   date: "Saturday, November 29, 2025",
   time: "10:00 AM Prompt",
@@ -108,8 +108,8 @@ export const WEDDING_DATA: {
 
   ],
   contacts: [
-    { name: "Groom's Brother (Jide)", phone: "+234 800 123 4567" },
-    { name: "Bride's Sister (Funmi)", phone: "+234 900 765 4321" },
+    { name: "Funmi", phone: "+234 810 404 8474" },
+    { name: "Sunday", phone: "+234 813 839 9798" },
   ],
   howWeMet: {
     title: "Our Journey to Forever",
@@ -117,11 +117,11 @@ export const WEDDING_DATA: {
       "We first crossed paths at a mutual friend's birthday party. Dapo was immediately drawn to Tinu's infectious laughter, and Tinu was charmed by Dapo's quiet confidence. What started as a simple conversation about books quickly blossomed into a friendship, and soon after, an undeniable love. Our story is built on shared faith, countless adventures, and a deep, mutual respect. Every day since then has been a step closer to this moment.",
   },
   gallery: [
-    { id: 1, url: "https://placehold.co/500x500/556B2F/FFD700?text=Joy", filter: "saturate(1.5)" },
-    { id: 2, url: "https://placehold.co/500x500/FFD700/556B2F?text=Love", filter: "grayscale(0.8)" },
-    { id: 3, url: "https://placehold.co/500x500/556B2F/FFD700?text=Future", filter: "sepia(0.6)" },
-    { id: 4, url: "https://placehold.co/500x500/FFD700/556B2F?text=Together", filter: "brightness(1.2)" },
-    { id: 5, url: "https://placehold.co/500x500/556B2F/FFD700?text=Forever", filter: "contrast(1.5)" },
+    { id: 1, url: "/AB2.jpg", filter: "saturate(1.5)" },
+    { id: 2, url: "/AB3.jpg", filter: "grayscale(0.8)" },
+    { id: 3, url: "/AB1.jpg", filter: "sepia(0.6)" },
+    { id: 4, url: "/AB4.jpg", filter: "brightness(1.2)" },
+    { id: 5, url: "/AB5.jpg", filter: "contrast(1.5)" },
   ],
 };
 
@@ -607,6 +607,24 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
         },
       ],
     },
+    {
+      header: "Our Note: OA Affairs",
+      subsections: [
+        {
+          details: [
+            "We thank you for your valuable contributions in making our day a success.",
+            "It was such a joy to see you in your beautiful regalia, enchanting smiles, warm meet & greet... What a sight to behold?! ", 
+            "This brought to mind something bigger than this, the one time event which this was patterned after, The Wedding Ceremony Of The GROOM.", 
+            "This event isn't one of its kind, it's a type of what is coming soon. That which has been talked about before and is coming to pass shortly. Everything you saw here and far more glorious is what awaits us there.",
+            "Everyone has been invited but like every event, not all take it seriously & attend; but you're not entitled to all that's been provided for if you turn it down.",
+            "The access card is simple: Do you know Jesus, Do you have a living relationship with Him, is He Lord & King over your life... How do you attend an event you don't know the parties involved nor granted access card?!",
+            "It's our joy to have you here & we want to also see you in God's blossom which is accessible only through His Son, Jesus The Christ. This is a good opportunity to make that life defining decision. Simply believe in His finished works for you & accept His outstretched Arms Of Love. Guess what, we wouldn't mind to be part of your journey if you want us to pray with you & help in your growth journeys, it would be a great honour.",
+            "Again thank you for making OA Affairs memorable...",
+          ],
+          translation: null,
+        },
+      ],
+    },
   ],
   photographyOrder: [
     "The Couple with Officiating Minister",
@@ -795,7 +813,7 @@ const DetailsPage: React.FC<DetailsPageProps> = ({ themeClasses, navigateTo }) =
           {WEDDING_DATA.couple.names}
         </h2>
         <p className={`text-lg sm:text-xl font-medium tracking-widest ${themeClasses.accentText}`}>
-          25.11.2025 | LAGOS, NIGERIA
+          29.11.2025 | LAGOS, NIGERIA
         </p>
       </div>
 
@@ -859,6 +877,7 @@ const DetailsPage: React.FC<DetailsPageProps> = ({ themeClasses, navigateTo }) =
           <h3 className={`text-3xl font-['Playfair_Display'] font-bold mb-6 ${themeClasses.primaryText}`}>
             The Celebration
           </h3>
+
 
           <DetailItem icon={Calendar} label="Date" value={WEDDING_DATA.date} themeClasses={themeClasses} />
           <DetailItem icon={Clock} label="Time" value={WEDDING_DATA.time} themeClasses={themeClasses} />
@@ -1112,11 +1131,11 @@ const Footer: React.FC<FooterProps> = ({ themeClasses }) => (
       Made with <Heart size={14} className={`inline ${themeClasses.accentText} mx-1`} fill={COLORS.accent} /> for {WEDDING_DATA.couple.names} by Philip Ajayi
     </p>
     <div className="flex justify-center space-x-4">
-      <a href="#" aria-label="Social Link" className={`hover:text-[#FFD700] transition`}>
+      <a href="https://www.instagram.com/philipgigaloluwa?igsh=MWM1dHJ4djl1cWRqdQ==" aria-label="Social Link" className={`hover:text-[#FFD700] transition`}>
         <Instagram size={20} />
       </a>
-      <a href="#" aria-label="Social Link" className={`hover:text-[#FFD700] transition`}>
-        <Link size={20} />
+      <a href="https://www.linkedin.com/in/philip-gigaloluwa-ajayi?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="Social Link" className={`hover:text-[#FFD700] transition`}>
+        <Linkedin size={20} />
       </a>
     </div>
   </footer>
