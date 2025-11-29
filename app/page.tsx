@@ -262,7 +262,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Charge & Declaration/ErediIgbeyawo	",
+      header: "Charge & Declaration / Eredi Igbeyawo",
       anchor: "Pastor Ope Rowland",
       subsections: [
         {
@@ -516,15 +516,15 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       anchor: "Rev Oluwafemi V. Ajose",
     },
     {
-      header: "Marriage Thanksgiving/IdupeIgbeyawo",
+      header: "Marriage Thanksgiving / Idupe Igbeyawo",
       anchor: "Mrs Elizabeth Shiyanbade",
     },
     {
-      header: "Presentation of Certificate/Fifun won niiweeri",
+      header: "Presentation of Certificate / Fifun won niiweeri",
       anchor: "Rev Oluwafemi V. Ajose",
     },
     {
-      header: "Greetings and Annoucement/IkiloatiIfilo",
+      header: "Greetings and Annoucement / Ikilo ati Ifilo",
       anchor: "Mrs Funmilola Agunloye",
     },
     {
