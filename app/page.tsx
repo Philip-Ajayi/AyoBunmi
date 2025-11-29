@@ -129,7 +129,7 @@ export const WEDDING_DATA: {
 const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] } = {
   sections: [
     {
-      header: "Processional Hymn (To God be the Glory/ Ogo ni F'oluwa)",
+      header: "Processional Hymn",
       anchor: "Music Director",
       subsections: [
         {
@@ -191,7 +191,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       anchor: "Rev. Dr. Adedokun",
     },
     {
-      header: "Hymn of Worship/Orin Iyin (All Hail the Power of Jesus)",
+      header: "Hymn of Worship/ Orin Iyin",
       anchor: "Music Director",
       subsections: [
         {
@@ -279,7 +279,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Hymn of Blessing/Orin Ibukun (Ojo Ibukun)",
+      header: "Hymn of Blessing / Orin Ibukun",
       anchor: "Music Director",
       subsections: [
         {
@@ -342,7 +342,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Confession, Joining and Blessing/Ijewo, Idapoati Ibukun ",
+      header: "Confession, Joining and Blessing / Ijewo, Idapo ati Ibukun ",
       anchor: "Rev Oluwafemi V. Ajose",
       subsections: [
         {
@@ -370,8 +370,8 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
           subheader: "JOINING AND BLESSING",
           details: [
             "I require and charge you both, as you will answer at the dreadful Day of Judgement, when secrets of all hearts shall be disclosed that if either of you know any impediment, why you may not be lawfully joined together in Holy matrimony, you should now confess it, for be you well assured that so many as are joined together otherwise than God’s word doth allow, are not joined together by God, neither is their matrimony lawful.",
-            "GROOM:I, Ayobami Akoredehereby declare before God and his congregation that, I know not any lawful impediment why I may not be joined in the Holy Matrimony",
-            "BRIDE:I, Oluwabunmi Fadekemihereby declare before God and his congregation that, I know not any lawful impediment why I may not be joined in the Holy Matrimony",
+            "GROOM:I, Ayobami Akorede hereby declare before God and his congregation that, I know not any lawful impediment why I may not be joined in the Holy Matrimony",
+            "BRIDE:I, Oluwabunmi Fadekemi hereby declare before God and his congregation that, I know not any lawful impediment why I may not be joined in the Holy Matrimony",
             "If no impediment be alleged, then shall the Minister say unto the man:",
             "MINISTER: Ayobami Akorede will thou have this woman to be thy wedded wife, to live together according to God’s law in the Holy Estate of Matrimony? Will thou love her, comfort her, honour her and keep her in all circumstances, forsake all others, keep thou only unto her, so long as you both shall live?",
             "GROOM: I will God helping me",
@@ -382,9 +382,9 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
             "The Father will answer: I, Pa Moses Ogunbode and my wife on behalf of the entire family, gave her in marriage in the name of the Father, The Son and Holy Spirit.",
             "Here the father of the Bride takes her by the right hand, and hands her over to the Officiating Minister",
             "The Minister will quietly suggest that the man with his right hand take the right hand of the woman",
-            "HUSBAND: I, Ayobami Adeagbo take theeOluwabunmi Fadekemi to be my wedded wife, to have and to hold, from this day forward, in all circumstances to love and to cherish, till Christ’s face we see according to God’s Holy Ordnance and hereto I pledge thee my truth.",
+            "HUSBAND: I, Ayobami Adeagbo take thee Oluwabunmi Fadekemi to be my wedded wife, to have and to hold, from this day forward, in all circumstances to love and to cherish, till Christ’s face we see according to God’s Holy Ordnance and hereto I pledge thee my truth.",
             "Then shall they lose their hands and the woman with the right hand taking the man by his right hand likewise say",
-            "Wife: I,Oluwabunmi Fadekemi take thee Ayobami Akorede to be my wedded wife, to have and to hold, from this day forward, in all circumstances to love and to cherish, till Christ’s face we see according to God’s Holy Ordnance and hereto I pledge thee my truth.",
+            "Wife: I, Oluwabunmi Fadekemi take thee Ayobami Akorede to be my wedded husband, to have and to hold, from this day forward, in all circumstances to love and to cherish, till Christ’s face we see according to God’s Holy Ordnance and hereto I pledge thee my truth.",
             "The minister will suggest that she hands her bouquet to the Chief Bride’s Maid, he will address the groom.",
           ],
           translation: null,
@@ -428,7 +428,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Hymn of Prayer/Orin Adua (Nipa Ife Olugbala)",
+      header: "Hymn of Prayer / Orin Adua",
       anchor: "Music Director",
       subsections: [
         {
@@ -496,23 +496,23 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Prayer of Dedication/Adura Iyasi",
+      header: "Prayer of Dedication / Adura Iyasi",
       anchor: "Rev Dr. Adebayo",
     },
     {
-      header: "Bible Reading/Bibeli Kika",
+      header: "Bible Reading / Bibeli Kika",
       anchor: "Mrs Bola Ajose",
     },
     {
-      header: "Choir Rendition/Ise Iranse Orin",
+      header: "Choir Rendition / Ise Iranse Orin",
       anchor: "The Glorious Choir",
     },
     {
-      header: "Sermon/Iwasu",
+      header: "Sermon / Iwasu",
       anchor: "Rev M.A. Adetumbi",
     },
     {
-      header: "Signing of Marriage Register/Fifi owo si iwe eri Igbeyawo",
+      header: "Signing of Marriage Register / Fifi owo si iwe eri Igbeyawo",
       anchor: "Rev Oluwafemi V. Ajose",
     },
     {
@@ -520,7 +520,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       anchor: "Mrs Elizabeth Shiyanbade",
     },
     {
-      header: "Presentation of Certificate / Fifun won niiweeri",
+      header: "Presentation of Certificate / Fifun won ni iwe eri",
       anchor: "Rev Oluwafemi V. Ajose",
     },
     {
@@ -528,19 +528,19 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       anchor: "Mrs Funmilola Agunloye",
     },
     {
-      header: "Vote of Thanks/Oro Idupe",
+      header: "Vote of Thanks / Oro Idupe",
       anchor: "Mrs Oluwaseun Afolabi",
     },
     {
-      header: "Closing Prayer/Adura Ipari",
+      header: "Closing Prayer / Adura Ipari",
       anchor: "Pastor Seun Ayoade",
     },
     {
-      header: "Benediction/Oore Ofe	",
+      header: "Benediction / Oore Ofe	",
       anchor: "Rev Dr. M.A Adetunbi",
     },
     {
-      header: "Recessional Hymn/Orin Akojade (God give us Christain Home)",
+      header: "Recessional Hymn / Orin Akojade",
       anchor: "Music Director",
 
       subsections: [
