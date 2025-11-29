@@ -58,6 +58,7 @@ type SectionSub = {
   translation?: string | string[] | null;
 };
 
+
 type Section = {
   header: string;
   anchor?: string | null;
@@ -108,13 +109,13 @@ export const WEDDING_DATA: {
 
   ],
   contacts: [
-    { name: "Funmi", phone: "+234 810 404 8474" },
+    { name: "Femi", phone: "+234 810 404 8474" },
     { name: "Sunday", phone: "+234 813 839 9798" },
   ],
   howWeMet: {
     title: "Our Journey to Forever",
     story:
-      "We first crossed paths at a mutual friend's birthday party. Dapo was immediately drawn to Tinu's infectious laughter, and Tinu was charmed by Dapo's quiet confidence. What started as a simple conversation about books quickly blossomed into a friendship, and soon after, an undeniable love. Our story is built on shared faith, countless adventures, and a deep, mutual respect. Every day since then has been a step closer to this moment.",
+      "Our paths first crossed in 2012, during Ayobami’s final year at university. One of his predecessors in the evangelist subgroup phoned him with a simple request: a sister named Bunmi was coming for her post-UTME and needed help settling in. Ayobami arranged a place for her to stay in a sister’s room and made sure she was taken care of, even cooking meals for her. Unfortunately, Bunmi discovered that she couldn't write the exam because the registration had already closed, so her visit was short-lived. Yet that brief encounter, which neither of us thought much of at the time, turned out to be the quiet beginning of a journey we would later continue together.",
   },
   gallery: [
     { id: 1, url: "/AB2.jpg", filter: "saturate(1.5)" },
@@ -128,7 +129,7 @@ export const WEDDING_DATA: {
 const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] } = {
   sections: [
     {
-      header: "Processional Hymn (To God be the Glory/)",
+      header: "Processional Hymn (To God be the Glory/ Ogo ni F'oluwa)",
       anchor: "Music Director",
       subsections: [
         {
@@ -341,7 +342,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       ],
     },
     {
-      header: "Confession, Joining and Blessing/Ijewo,Idapoati Ibukun ",
+      header: "Confession, Joining and Blessing/Ijewo, Idapoati Ibukun ",
       anchor: "Rev Oluwafemi V. Ajose",
       subsections: [
         {
@@ -511,7 +512,7 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
       anchor: "Rev M.A. Adetumbi",
     },
     {
-      header: "Signing of Marriage Register/Fifi owosiiweeriIgbeyawo",
+      header: "Signing of Marriage Register/Fifi owo si iwe eri Igbeyawo",
       anchor: "Rev Oluwafemi V. Ajose",
     },
     {
@@ -644,11 +645,13 @@ const ORDER_OF_SERVICE_DATA: { sections: Section[]; photographyOrder: string[] }
     "Couple with Issachar Revelator",
     "Couple with MIV WH Broadcast Team",
     "Couple with MIV WH Drama Team",
-    "Couple with MIV WH Drama Team",
-    "Couple with MIV WH Drama Team",
-    "Couple with MIV WH Drama Team",
-    "Couple and Bridal Party",
-    "Couple and Friends (General)",
+    "Couple with NIFES",
+    "Couple alone",
+    "Bride alone",
+    "Groom alone",
+    "Best man and Chief Bridemaid",
+    "Couple with little and little bride",
+    "Bride and Chief Bridesmaid",
   ],
 };
 
@@ -1021,7 +1024,7 @@ const OrderOfServicePage: React.FC<OrderOfServicePageProps> = ({ themeClasses, n
           Order of Service
         </h2>
         <h3 className={`text-xl font-medium text-center mb-8 ${themeClasses.accentText}`}>
-          The Union of {coupleNames}
+          The Holy Matrimony of Fadekemi Oluwabunmi and Ayobami Akorede
         </h3>
 
         <div className={`p-4 rounded-lg border-2 border-[#FFD700] border-opacity-30 mb-8`}>
