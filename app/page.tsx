@@ -122,7 +122,7 @@ export const WEDDING_DATA: {
     { id: 2, url: "/AB3.jpg", filter: "grayscale(0.8)" },
     { id: 3, url: "/AB1.jpg", filter: "sepia(0.6)" },
     { id: 4, url: "/AB4.jpg", filter: "brightness(1.2)" },
-    { id: 5, url: "/AB5.jpg", filter: "contrast(1.5)" },
+    { id: 5, url: "/AB.jpg", filter: "contrast(1.5)" },
   ],
 };
 
